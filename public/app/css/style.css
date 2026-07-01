@@ -1,0 +1,18 @@
+html{
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    color: yellow;
+}
+
+td {
+  max-width: 150px;    /* El ancho máximo que no quieres que supere */
+  white-space: nowrap; /* Evita que el texto salte a la siguiente línea */
+  overflow: hidden;    /* Oculta el texto que sobresale del límite */
+  text-overflow: ellipsis; /* Agrega los tres puntos suspensivos (...) */
+}
